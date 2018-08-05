@@ -1,0 +1,239 @@
+/*
+* @Author: langkai1
+* @Date:   2018-05-20 11:19:33
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-07-29 11:05:35
+*/
+@import url(base.css);
+*{
+	padding: 0;
+}
+.zlogo{
+	width: 2.46rem;
+	height: 3.76rem;
+	margin: 0 auto;
+	margin-top: 1.18rem;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.zlogo_top{
+	width: 2.46rem;
+	height: 2.46rem;
+
+}
+.zlogo_bottom{
+	width: 2.46rem;
+	height: 0.86rem;
+}
+.zbt{
+	width: 2.46rem;
+	height: 0.42rem;
+	
+	float: left;
+	font-size: 24px;
+	line-height: 0.42rem;
+	text-align: center;
+	color: #333333;
+	letter-spacing: 0.01rem;
+}
+.zbb{
+	width: 2.46rem;
+	height: 0.44rem;
+
+	float: left;
+	position: relative;
+}
+.zbbd{
+	width: 0.28rem;
+	height: 0.06rem;
+    position: absolute;
+    top: 0.18rem;
+    left: 0.3rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+.d{
+	width: 0.06rem;
+	height: 0.06rem;
+	border-radius: 50%;
+	background: #f29dac;
+}
+.zc{
+	position: absolute;
+	font-size: 0.2rem;
+	line-height: 0.44rem;
+	text-align: center;
+	color: #ec6d83;
+	top: 0;
+	left: 0.9rem;
+}
+.zifmt{
+	width: 5.54rem;
+	height: 3.88rem;
+	
+	position: absolute;
+	top: 6.13rem;
+	left: 21%; 
+	border-radius: 0.04rem;
+	box-shadow: 0 0 0.1rem 0.04rem #bababa;
+	background: white;
+}
+.zifmt_top{
+	width: 4.87rem;
+	height: 0.31rem;
+	background: #febe54;
+	margin: -0.155rem auto;
+	border-radius: 0.05rem;
+	position: absolute;
+	top: 6.1rem;
+	left: 24.3%;
+}
+.zifmt_bottom{
+	width: 2rem;
+	height: 0.48rem;
+	background: #dcdcdc;
+	border-radius: 0.24rem;
+	position: absolute;
+	top: 56%;
+	left: 38%;
+	border: 0.03rem solid white;
+	line-height: 0.1rem;
+	text-align: center;
+	color: white;
+}
+.lar{
+	width: 0.32rem;
+	height: 0.68rem;
+
+	float: left;
+	margin-left: 49%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.lar a{
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background: red;
+}
+.tel{
+	width: 100%;
+	height: 0.58rem;
+	float: left;
+
+	margin-bottom: 0.21rem;
+	overflow: hidden;
+	position: relative;
+}
+.lan{
+	width: 0.2rem;
+	height: 0.05rem;
+	background: #7c7cfc;
+	border-radius: 0.025rem;
+	margin-top: 0.25rem;
+	margin-left: 0.34rem;
+	margin-right: 0.25rem;
+	float: left;
+	padding: 0;
+}
+.txt{
+	width: 4.24rem;
+	height: 0.56rem;
+	float: left;
+	border: none;
+	border-bottom: 2px solid #919191;
+	font-size: 0.22rem;
+
+}
+.telic{
+    font-size: 0.22rem;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.2rem;
+    color: #646464;
+ 
+}
+.telicn{
+	font-size: 0.22rem;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.2rem;
+    color: red; 
+      display: none;
+}
+.telicnn{
+	font-size: 0.22rem;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.2rem;
+    color: red; 
+      display: none;
+}
+.yzm{
+	width: 1.56rem;
+	height: 0.4rem;
+	border-radius: 0.2rem;
+	background: #959595;
+	line-height: 0.4rem;
+	color: white;
+	text-align: center;
+	position: absolute;
+	right: 0.5rem;
+	top: 0.1rem;
+	font-size: 0.24rem;
+}
+.xieyi{
+	width: 4.14rem;
+	height: 0.26rem;
+	font-size: 0.22rem;
+	position: absolute;
+	top: 11.41rem;
+	left: 27%;
+}
+.quan{
+	width: 0.24rem;
+	height: 0.24rem;
+	border-radius: 50%;
+	border: 0.01rem solid #666666;
+	color: #666666;
+	float: left;
+	line-height: 0.22rem;
+	text-align: center;
+
+}
+.error{
+	width: 2.63rem;
+	height: 0.49rem;
+	position: absolute;
+	top: 13%;
+	right: 10%;
+	font-size: 0.2rem;
+	line-height: 0.4rem;
+	background: url(../img/error.png);
+	text-align: center;
+	color: red;
+	background-size: cover;
+	display: none;
+}
+.xy{
+	font-size: 0.22rem;
+	color: #6e6e6e;
+}
+.xy:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.bj{
+	width: 100%;
+	height: 2.23rem;
+	background: #17e2d6;
+	float: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}

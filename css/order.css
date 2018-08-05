@@ -1,0 +1,109 @@
+@import url('base.css');
+.otou{
+    line-height: 0.9rem;
+    text-align: center;
+    font-size: 0.28rem;
+    color: #fff;
+    letter-spacing:0.13rem;
+    margin: 0 auto;
+}
+.orders{
+    width:7.02rem;
+    height: 1.05rem;
+    font-size: 0.23rem;
+    text-indent: 0.16rem;
+    line-height: 1.05rem;
+    font-weight:bold;
+    margin:0 auto;
+    border-bottom:0.01rem solid #cccccc;
+}
+.orderd{
+    width:7.02rem;
+    height: 3.43rem;
+    margin:0 auto;
+    border-bottom:0.01rem solid #cccccc;
+    padding-top: 0.23rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.orderp{
+    width: 1.21rem;
+    height: 0.84rem;
+    position: absolute;
+    top:0.39rem;
+    left:0.16rem;
+}
+.orderm{
+    width: auto;
+    height: 2.36rem;
+    position: absolute;
+    top:0.23rem;
+    left:1.67rem;
+}
+.ot{
+    display: block;
+    height: 0.63rem;
+    line-height: 0.63rem;
+    font-size: 0.34rem;
+    font-weight: bold;
+}
+.ob{
+     display: block;
+     height: 0.46rem;
+     line-height: 0.46rem;
+     font-size: 0.13rem;
+     color: #9a9a9a;
+ }
+.om{
+    display: block;
+    height: 1.04rem;
+    line-height: 1.04rem;
+    font-size: 0.23rem;
+}
+.orderr{
+    width: auto;
+    height: 2.36rem;
+    position: absolute;
+    top:0.23rem;
+    right:0;
+}
+.ort{
+    display: block;
+    height: 0.63rem;
+    line-height: 0.63rem;
+    font-size: 0.22rem;
+}
+.orderbo{
+    width: 3.36rem;
+    height: 0.87rem;
+    position: absolute;
+    bottom:0;
+    right:0.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.orderbo span{
+    width: 1.51rem;
+    height: 0.43rem;
+    line-height: 0.43rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.23rem;
+    background: #ffbc7b;
+    border-radius:0.22rem;
+}
+.white{
+    width: 7.02rem;
+    margin: 0 auto;
+    height: 0.28rem;
+    border-bottom: 0.14rem solid #e3e3e3;
+}
+.ren{
+    width: 7.02rem;
+    margin: 0 auto;
+    height: 0.9rem;
+    font-size: 0.22rem;
+    line-height: 0.88rem;
+    font-weight: bold;
+}

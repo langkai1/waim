@@ -1,0 +1,295 @@
+@import url('base.css');
+header{
+    width:100%;
+    height:0.9rem;
+    background: #1df4e2;
+}
+.tou{
+    width:7.03rem;
+    height:0.9rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.tou_left{
+    width:1.01rem;
+    height:0.9rem;
+}
+.tou_left span{
+    display: block;
+    width:1.01rem;
+    height: 0.45rem;
+    color: white;
+    line-height:0.45rem;
+    text-align: center;
+    font-size: 0.22rem;
+}
+.tou_mid{
+    width:5rem;
+    height:0.9rem;
+    position: relative;
+}
+#sou{
+    width:4.48rem;
+    height:0.51rem;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border: 0;
+    outline: 0;
+    border-radius:0.255rem;
+    text-align: center;
+    color: #6e6e6e;
+}
+.btn{
+    width:0.29rem;
+    height:0.29rem;
+    position: absolute;
+    text-align: center;
+    line-height: 0.29rem;
+    color: #7d7d7d;
+    font-size: 0.22rem;
+    top:50%;
+    transform: translateY(-50%);
+    left:0.47rem;
+}
+.tou_right{
+    width:1.01rem;
+    height:0.9rem;
+}
+.tou_right span{
+    display: block;
+    width:1.01rem;
+    height: 0.45rem;
+    color: white;
+    line-height:0.45rem;
+    text-align: center;
+    font-size: 0.22rem;
+}
+.lunb{
+    width:7.50rem;
+    height:3.57rem;
+    background: red;
+    margin: 0 auto;
+}
+#swiper1{
+    width:100%;
+    height:100% ;
+}
+#pag{
+    bottom:0;
+}
+.meau{
+    width:7.02rem;
+    height:1.88rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:0.01rem solid #bdbdbd;
+}
+.meau ul{
+    width:7.02rem;
+    height:1.88rem;
+    display: flex;
+    justify-content: space-between;
+}
+.meau ul li{
+    width:25%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.meau_top{
+    width:100%;
+    height:1.23rem;
+    position: relative;
+}
+.meau_bottom{
+    width: 100%;
+    height:0.57rem;
+    line-height: 0.57rem;
+    text-align: center;
+    font-size: 0.23rem;
+    color: #000;
+}
+.pic{
+    width:1.03rem;
+    height:1.03rem;
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
+}
+.ylike{
+    width:100%;
+    height: 5.63rem;
+    margin: 0 auto;
+    border-bottom: 0.29rem solid #cedddc;
+}
+.jinping{
+    display: block;
+    width: 100%;
+    height:0.87rem;
+    line-height: 0.87rem;
+    text-align: center;
+    font-size: 0.28rem;
+    color: #838383;
+    position: relative;
+    margin-bottom: 0.06rem;
+}
+
+.jinping::before{
+    content: "__";
+    width: 0.31rem;
+    height:0.01rem;
+    position: absolute;
+    top:-0.15rem;
+    left:2.68rem;
+    color: #b5b5b5;
+}
+.jinping::after{
+    content: "__";
+    width: 0.31rem;
+    height:0.01rem;
+    position: absolute;
+    top:-0.15rem;
+    left:4.5rem;
+    color: #b5b5b5;
+}
+.tuijian{
+    width:6.74rem;
+    height:4.42rem;
+    margin: 0 auto;
+    background: url("../img/like.gif") no-repeat center/cover;
+    position: relative;
+}
+.y{
+    width:2.79rem;
+    height: 3.91rem;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+.caid{
+    width: 100%;
+    height:auto;
+    background: white;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+.card{
+    width:7.02rem;
+    height:1.98rem;
+    border-bottom:0.01rem solid #cccccc;
+    margin: 0 auto;
+}
+.card_left{
+    width:2.49rem;
+    height:100%;
+    float: left;
+    position: relative;
+}
+.card_pic{
+    width:2.21rem;
+    height: 1.53rem;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.card_right{
+    width: 4.49rem;
+    height: 100%;
+    float: left;
+}
+.crd{
+    display: block;
+    height: 0.54rem;
+    margin-top: 0.11rem;
+    line-height: 0.54rem;
+    color: #000;
+    font-size: 0.34rem;
+    text-indent: 0.11rem;
+    font-weight: bold;
+}
+.crm{
+    width:100%;
+    height:0.35rem;
+    line-height: 0.35rem;
+    font-size: 0.17rem;
+    text-indent: 0.1rem;
+    color: #000;
+    position: relative;
+}
+.xing{
+    width: 1.54rem;
+    height: 0.21rem;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left:1.1rem;
+}
+.xing ul{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.xx{
+    width:25%;
+    height:100%;
+}
+.jtime{
+    display: block;
+    width:100%;
+    height: 0.45rem;
+    font-size: 0.17rem;
+    line-height: 0.45rem;
+    text-indent: 0.11rem;
+    position: relative;
+}
+.yues{
+    width: 1.5rem;
+    height: 100%;
+    position: absolute;
+    top:0;
+    right:0;
+    font-size: 0.17rem;
+    line-height: 0.45rem;
+}
+footer{
+    width: 100%;
+    height:1.02rem;
+    position: fixed;
+    bottom: 0;
+    left:50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    background: white;
+}
+footer ul{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer ul li{
+    width: 0.5rem;
+    height:0.77rem;
+
+}
+footer ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 0.16rem;
+    text-align: center;
+    color: black;
+}
